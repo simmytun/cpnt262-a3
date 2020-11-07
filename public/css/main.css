@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+
+
+ /* Resets */
+ * {
+    box-sizing: border-box;
+    font-family: 'Syne Tactile', cursive;
+    background-color: whitesmoke;
+  
+  }
+   .gallery {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     margin :auto;
+     grid-template-columns: repeat(auto-fill, minmax(50ch, 50ch));
+   
+     /* maximum width limit */
+     max-width: 1500px;
+   }
+   
+   .card {
+       display: flex;
+       flex-wrap: wrap;
+       font-size: 16px;
+       border: 1px solid grey; 
+       justify-content: center;
+       text-align: center;
+
+
+       /* set all images to max width*/
+       max-width: 350px;
+       min-width: 350px;
+       min-height: 100%;
+       
+       
+   }
+   
+   
+   img {
+    object-fit: cover;
+
+    align-self: center;
+     
+    width: 100%;
+     
+    min-height: 200px;
+    max-height: 200px;
+    
+    
+   }
+   
+ 
+   
+  
